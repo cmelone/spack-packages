@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo:*)",
+      "Bash($SPACK_ROOT/bin/spack env:*)",
+      "Bash(spack env:*)",
+      "Bash(which spack:*)",
+      "Bash(SKILL_DIR=\"/Users/melone1/src/dotfiles/home/.spack/package_repos/fncqgg4/.agents/skills/cmake-extract\"\nREPO=\"/var/folders/03/h_3xf8wj7pl661dk1pxqwxb00010rv/T//jLAdI\"\npython \"$SKILL_DIR/scripts/detect_build_systems.py\" \"$REPO\")",
+      "Bash(SKILL_DIR=\"/Users/melone1/src/dotfiles/home/.spack/package_repos/fncqgg4/.agents/skills/cmake-extract\"\nREPO=\"/var/folders/03/h_3xf8wj7pl661dk1pxqwxb00010rv/T//jLAdI\"\npython \"$SKILL_DIR/scripts/cmake_extract.py\" \"$REPO\")",
+      "Bash(pip install:*)",
+      "Bash(tmp_env=/var/folders/03/h_3xf8wj7pl661dk1pxqwxb00010rv/T/tmp.WjBHFvSAfu\n$SPACK_ROOT/bin/spack list spify 2>&1)",
+      "Bash(tmp_env=/var/folders/03/h_3xf8wj7pl661dk1pxqwxb00010rv/T/tmp.WjBHFvSAfu\n$SPACK_ROOT/bin/spack -e $tmp_env spec spify 2>&1)",
+      "Bash(tmp_env=/var/folders/03/h_3xf8wj7pl661dk1pxqwxb00010rv/T/tmp.WjBHFvSAfu\n$SPACK_ROOT/bin/spack -e $tmp_env add spify && $SPACK_ROOT/bin/spack -e $tmp_env install 2>&1)",
+      "Bash(tmp_env=/var/folders/03/h_3xf8wj7pl661dk1pxqwxb00010rv/T/tmp.WjBHFvSAfu\n$SPACK_ROOT/bin/spack -e $tmp_env concretize --force 2>&1 | tail -5)",
+      "Bash(tmp_env=/var/folders/03/h_3xf8wj7pl661dk1pxqwxb00010rv/T/tmp.WjBHFvSAfu\n$SPACK_ROOT/bin/spack -e \"$tmp_env\" concretize --force 2>&1 | tail -5 && \\\\\n$SPACK_ROOT/bin/spack -e \"$tmp_env\" install 2>&1 | tail -20)",
+      "Bash(tmp_env=/var/folders/03/h_3xf8wj7pl661dk1pxqwxb00010rv/T/tmp.WjBHFvSAfu\n$SPACK_ROOT/bin/spack --version)",
+      "Bash($SPACK_ROOT/bin/spack -e /var/folders/03/h_3xf8wj7pl661dk1pxqwxb00010rv/T/tmp.WjBHFvSAfu concretize --force 2>&1)",
+      "Bash(gh api:*)",
+      "Bash(gh repo:*)",
+      "Bash($SPACK_ROOT/bin/spack create:*)",
+      "Bash(tmp_env=/var/folders/03/h_3xf8wj7pl661dk1pxqwxb00010rv/T/tmp.Q8yoQ3CCXn\n$SPACK_ROOT/bin/spack -e $tmp_env list adapt 2>&1)",
+      "Bash(tmp_env=/var/folders/03/h_3xf8wj7pl661dk1pxqwxb00010rv/T/tmp.Q8yoQ3CCXn\n$SPACK_ROOT/bin/spack -e $tmp_env audit packages adapt 2>&1)",
+      "Bash(tmp_env=/var/folders/03/h_3xf8wj7pl661dk1pxqwxb00010rv/T/tmp.Q8yoQ3CCXn\n$SPACK_ROOT/bin/spack -e $tmp_env spec adapt 2>&1)",
+      "Bash(tmp_env=/var/folders/03/h_3xf8wj7pl661dk1pxqwxb00010rv/T/tmp.Q8yoQ3CCXn\n$SPACK_ROOT/bin/spack -e $tmp_env add adapt 2>&1)",
+      "Bash(tmp_env=/var/folders/03/h_3xf8wj7pl661dk1pxqwxb00010rv/T/tmp.Q8yoQ3CCXn\n$SPACK_ROOT/bin/spack -e $tmp_env install 2>&1)",
+      "Bash($SPACK_ROOT/bin/spack python:*)",
+      "Bash($SPACK_ROOT/bin/spack -e /var/folders/03/h_3xf8wj7pl661dk1pxqwxb00010rv/T/tmp.Q8yoQ3CCXn find --paths adapt 2>&1)"
+    ]
+  }
+}
