@@ -218,6 +218,11 @@ class Bazel(Package):
 
         args = ["--color=no", "--verbose_failures", f"--jobs={make_jobs}"]
 
+        # apple_support defaults to a macOS 10.11 target, which recent SDK libc++ doesn't support
+        if self.spec.satisfies("platform=darwin @8.8:"):
+            args.append("--macos_minimum_os=13.0")
+            args.append("--host_macos_minimum_os=13.0")
+
         # Use local java installation
         if self.spec.satisfies("@6:"):
             args.append("--tool_java_runtime_version=local_jdk")
